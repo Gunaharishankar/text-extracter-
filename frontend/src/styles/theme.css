@@ -1,0 +1,23 @@
+/* Import individual theme files */
+@import './themes/default.css';
+@import './themes/claude.css';
+@import './themes/discord.css';
+@import './themes/supabase.css';
+@import './themes/vercel.css';
+@import './themes/mono.css';
+@import './themes/notebook.css';
+@import './themes/light-green.css';
+@import './themes/zen.css';
+@import './themes/astro-vista.css';
+@import './themes/whatsapp.css';
+
+:root {
+  --header-height: calc(var(--spacing, 0.25rem) * 14);
+}
+
+[data-theme] body {
+  --font-sans: initial;
+  --font-mono: initial;
+  --font-serif: initial;
+  font-family: var(--font-sans);
+}
